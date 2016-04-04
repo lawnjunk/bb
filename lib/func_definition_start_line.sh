@@ -1,4 +1,4 @@
-#include "debug_log"
+#include "debug_log.sh"
 #ifndef FUNC_START
 #define FUNC_START
 # fn file function

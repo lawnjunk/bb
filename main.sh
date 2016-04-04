@@ -1,10 +1,9 @@
 #!/bin/bash
-
+#include "extract_functions.sh"
 #ifndef MAIN
 #define MAIN
 main(){
-  echo "hello, bb!"
+  extract_functions "$1" "$2"
 }
-
-main
+main "$1" "$2"
 #endif

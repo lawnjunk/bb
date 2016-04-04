@@ -1,5 +1,4 @@
 #include "lower.sh"
-#include "filename.sh"
 #ifndef EXTNAME
 #define EXTNAME
 extname() #{{{1

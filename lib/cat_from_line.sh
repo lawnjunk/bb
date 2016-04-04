@@ -1,4 +1,5 @@
 #include "cat_between.sh"
+#include "trim.sh"
 #ifndef CAT_FROM_LINE
 #define CAT_FROM_LINE
 #fn file star_line

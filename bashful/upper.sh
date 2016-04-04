@@ -1,4 +1,3 @@
-#include "lower.sh"
 #ifndef UPPER
 #define UPPER
 upper() #{{{1

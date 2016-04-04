@@ -1,6 +1,7 @@
-#ifndef MACRO_MAKER
-#define MACRO_MAKER
-#fn func_file function source_file output_dir
+#include "upper.sh"
+#include "filename.sh"
+#ifndef MACRO_MAKER 
+#define MACRO_MAKER 
 macro_maker(){
   debug_log "calling func macro_maker"
   local file func_name source_file output_dir_base
@@ -20,9 +21,13 @@ macro_maker(){
 
   [[ -d "$output_dir" ]] || mkdir "$output_dir"
   touch "$gpp_file"
-  echo "#ifndef $func_name_upper" >> "$gpp_file"
-  echo "#define $func_name_upper" >> "$gpp_file"
-  cat "$file"                     >> "$gpp_file"
-  echo "#endif"                   >> "$gpp_file"
+  echo -n "#" >> "$gpp_file"
+  echo "ifndef $func_name_upper" >> "$gpp_file"
+  echo -n "#"                    >> "$gpp_file"
+  echo "define $func_name_upper" >> "$gpp_file"
+  cat "$file"                    >> "$gpp_file"
+  echo -n "#"                    >> "$gpp_file"
+  echo "endif"                   >> "$gpp_file"
 }
+
 #endif
