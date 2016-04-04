@@ -1,7 +1,7 @@
-#include "rtrim.sh"
-#include "ltrim.sh"
-#ifndef TRIM
-#define TRIM
+\include "rtrim.sh"
+\include "ltrim.sh"
+\ifndef TRIM
+\define TRIM
 trim() #{{{1
 {
     # <doc:trim> {{{
@@ -15,4 +15,4 @@ trim() #{{{1
 
     ltrim "$1" | rtrim "$1"
 }
-#endif
+\endif

@@ -1,6 +1,6 @@
-#include "lower.sh"
-#ifndef TRUTH
-#define TRUTH
+\include "lower.sh"
+\ifndef TRUTH
+\define TRUTH
 truth() #{{{1
 {
     # <doc:truth> {{{
@@ -22,4 +22,4 @@ truth() #{{{1
     esac
     return 1
 }
-#endif
+\endif

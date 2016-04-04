@@ -1,6 +1,6 @@
-#include "trim_lines.sh"
-#ifndef SQUEEZE_LINES
-#define SQUEEZE_LINES
+\include "trim_lines.sh"
+\ifndef SQUEEZE_LINES
+\define SQUEEZE_LINES
 squeeze_lines() #{{{1
 {
     # <doc:squeeze_lines> {{{
@@ -12,4 +12,4 @@ squeeze_lines() #{{{1
 
     sed '/^[[:space:]]\+$/s/.*//g' | cat -s | trim_lines
 }
-#endif
+\endif

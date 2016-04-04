@@ -1,7 +1,7 @@
-#include "verbose.sh"
-#include "execute_in.sh"
-#ifndef VERBOSE_EXECUTE_IN
-#define VERBOSE_EXECUTE_IN
+\include "verbose.sh"
+\include "execute_in.sh"
+\ifndef VERBOSE_EXECUTE_IN
+\define VERBOSE_EXECUTE_IN
 verbose_execute_in() #{{{1
 {
     # <doc:verbose_execute_in> {{{
@@ -19,4 +19,4 @@ verbose_execute_in() #{{{1
         execute_in "$@" &>/dev/null
     fi
 }
-#endif
+\endif

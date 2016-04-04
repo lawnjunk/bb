@@ -1,8 +1,8 @@
-#include "remove.sh"
-#include "filename.sh"
-#include "error.sh"
-#ifndef TRUNCATE
-#define TRUNCATE
+\include "remove.sh"
+\include "filename.sh"
+\include "error.sh"
+\ifndef TRUNCATE
+\define TRUNCATE
 truncate() #{{{1
 {
     # <doc:truncate> {{{
@@ -78,4 +78,4 @@ truncate() #{{{1
         fi
     done
 }
-#endif
+\endif

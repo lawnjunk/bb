@@ -1,5 +1,5 @@
-#ifndef UPPER
-#define UPPER
+\ifndef UPPER
+\define UPPER
 upper() #{{{1
 {
     # <doc:upper> {{{
@@ -10,4 +10,4 @@ upper() #{{{1
 
     tr '[:lower:]' '[:upper:]'
 }
-#endif
+\endif

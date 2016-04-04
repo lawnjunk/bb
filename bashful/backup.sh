@@ -1,6 +1,6 @@
-#include "copy.sh"
-#ifndef BACKUP
-#define BACKUP
+\include "copy.sh"
+\ifndef BACKUP
+\define BACKUP
 backup() #{{{1
 {
     # <doc:backup> {{{
@@ -16,4 +16,4 @@ backup() #{{{1
     mkdir -p "$d"
     copy "$f" "$d/$TIMESTAMP/$(basename "$f")"
 }
-#endif
+\endif

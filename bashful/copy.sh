@@ -1,9 +1,9 @@
-#include "verbose_echo.sh"
-#include "verbose.sh"
-#include "interactive_option.sh"
-#include "interactive.sh"
-#ifndef COPY
-#define COPY
+\include "verbose_echo.sh"
+\include "verbose.sh"
+\include "interactive_option.sh"
+\include "interactive.sh"
+\ifndef COPY
+\define COPY
 copy() #{{{1
 {
     # <doc:copy> {{{
@@ -18,4 +18,4 @@ copy() #{{{1
 
     $SUDO cp -Tr $(interactive_option) $(verbose_echo -v) "$@"
 }
-#endif
+\endif

@@ -1,3 +1,3 @@
-#ifndef BG
-#define BG
-#endif
+\ifndef BG
+\define BG
+\endif

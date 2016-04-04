@@ -1,5 +1,5 @@
-#ifndef IN_ARRAY
-#define IN_ARRAY
+\ifndef IN_ARRAY
+\define IN_ARRAY
 in_array() #{{{1
 {
     # <doc:in_array> {{{
@@ -16,4 +16,4 @@ in_array() #{{{1
     done
     return 1
 }
-#endif
+\endif

@@ -1,6 +1,6 @@
-#include "trim.sh"
-#ifndef SPLIT_STRING
-#define SPLIT_STRING
+\include "trim.sh"
+\ifndef SPLIT_STRING
+\define SPLIT_STRING
 split_string() #{{{1
 {
     # <doc:split_string> {{{
@@ -28,4 +28,4 @@ split_string() #{{{1
         done
     done
 }
-#endif
+\endif

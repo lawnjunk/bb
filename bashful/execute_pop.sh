@@ -1,5 +1,5 @@
-#ifndef EXECUTE_POP
-#define EXECUTE_POP
+\ifndef EXECUTE_POP
+\define EXECUTE_POP
 execute_pop() #{{{1
 {
     # <doc:execute_pop> {{{
@@ -15,4 +15,4 @@ execute_pop() #{{{1
         unset EXECUTE_CMD[${#EXECUTE_CMD[@]}-1]
     done
 }
-#endif
+\endif

@@ -1,8 +1,8 @@
-#include "profile_verify.sh"
-#include "profile_hook.sh"
-#include "editor.sh"
-#ifndef PROFILE_EDIT
-#define PROFILE_EDIT
+\include "profile_verify.sh"
+\include "profile_hook.sh"
+\include "editor.sh"
+\ifndef PROFILE_EDIT
+\define PROFILE_EDIT
 profile_edit() #{{{1
 {
     # <doc:profile_edit> {{{
@@ -16,4 +16,4 @@ profile_edit() #{{{1
     editor "$PROFILE_FILE"
     profile_hook edit post
 }
-#endif
+\endif

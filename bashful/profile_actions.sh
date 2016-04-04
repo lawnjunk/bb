@@ -1,6 +1,6 @@
-#include "actions.sh"
-#ifndef PROFILE_ACTIONS
-#define PROFILE_ACTIONS
+\include "actions.sh"
+\ifndef PROFILE_ACTIONS
+\define PROFILE_ACTIONS
 profile_actions() #{{{1
 {
     # <doc:profile_actions> {{{
@@ -11,4 +11,4 @@ profile_actions() #{{{1
 
     actions "profile"
 }
-#endif
+\endif

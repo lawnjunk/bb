@@ -1,6 +1,6 @@
-#include "squeeze.sh"
-#ifndef ABSPATH
-#define ABSPATH
+\include "squeeze.sh"
+\ifndef ABSPATH
+\define ABSPATH
 abspath() #{{{1
 {
     # <doc:abspath> {{{
@@ -47,4 +47,4 @@ abspath() #{{{1
     echo "/${elms[*]}"
     IFS=$OIFS
 }
-#endif
+\endif

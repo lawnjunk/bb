@@ -1,5 +1,5 @@
-#ifndef CAT_BETWEEN
-#define CAT_BETWEEN
+\ifndef CAT_BETWEEN
+\define CAT_BETWEEN
 # fn file start_line end_line
 cat_between(){ 
   local file start_line end_line
@@ -10,4 +10,4 @@ cat_between(){
 
   sed -n "${start_line},${end_line}p" "$file"
 }
-#endif
+\endif

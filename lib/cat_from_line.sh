@@ -1,7 +1,7 @@
-#include "cat_between.sh"
-#include "trim.sh"
-#ifndef CAT_FROM_LINE
-#define CAT_FROM_LINE
+\include "cat_between.sh"
+\include "trim.sh"
+\ifndef CAT_FROM_LINE
+\define CAT_FROM_LINE
 #fn file star_line
 cat_from_line(){
   local file start_line end_line
@@ -12,4 +12,4 @@ cat_from_line(){
 
   cat_between "$file" "$start_line" "$end_line"
 }
-#endif
+\endif

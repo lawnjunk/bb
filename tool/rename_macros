@@ -1,0 +1,13 @@
+#!/bin/bash
+function rename_macros(){
+  sed -i "" "s/#include/\\\\include/g"  *.sh
+  sed -i "" "s/#ifndef/\\\\ifndef/g"  *.sh 
+  sed -i "" "s/#define/\\\\define/g"  *.sh
+  sed -i "" "s/#endif/\\\\endif/g"  *.sh
+  sed -i "" "s/#include/\\\\include/g"  **/*.sh
+  sed -i "" "s/#ifndef/\\\\ifndef/g"  **/*.sh 
+  sed -i "" "s/#define/\\\\define/g"  **/*.sh
+  sed -i "" "s/#endif/\\\\endif/g"  **/*.sh
+}
+
+rename_macros "$1" "$2"

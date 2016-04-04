@@ -1,5 +1,5 @@
-#ifndef INCREMENT
-#define INCREMENT
+\ifndef INCREMENT
+\define INCREMENT
 increment() #{{{1
 {
     # <doc:increment> {{{
@@ -25,4 +25,4 @@ increment() #{{{1
 
     echo "$file"
 }
-#endif
+\endif

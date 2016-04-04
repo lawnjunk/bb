@@ -1,11 +1,11 @@
-#include "debug_log.sh"
-#include "cat_from_line.sh"
-#include "cat_to_line.sh"
-#include "macro_maker.sh"
-#include "func_definition_start_line.sh"
+\include "debug_log.sh"
+\include "cat_from_line.sh"
+\include "cat_to_line.sh"
+\include "macro_maker.sh"
+\include "func_definition_start_line.sh"
 
-#ifndef GET_FUNC_FILE
-#define GET_FUNC_FILE
+\ifndef GET_FUNC_FILE
+\define GET_FUNC_FILE
 #fn file function output_dir
 get_func_file(){
   local file func output_dir_base
@@ -37,4 +37,4 @@ get_func_file(){
   macro_maker "$func_file" "$func" "$file" "$output_dir_base"
   rm "$func_file"
 }
-#endif
+\endif

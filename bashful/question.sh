@@ -1,9 +1,9 @@
-#include "truth.sh"
-#include "interactive.sh"
-#include "input.sh"
-#include "choice.sh"
-#ifndef QUESTION
-#define QUESTION
+\include "truth.sh"
+\include "interactive.sh"
+\include "input.sh"
+\include "choice.sh"
+\ifndef QUESTION
+\define QUESTION
 question() #{{{1
 {
     # <doc:question> {{{
@@ -47,4 +47,4 @@ question() #{{{1
 
     truth $(input -d $d -p "$p")
 }
-#endif
+\endif

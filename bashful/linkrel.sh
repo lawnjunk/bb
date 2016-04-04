@@ -1,7 +1,7 @@
-#include "relpath.sh"
-#include "link.sh"
-#ifndef LINKREL
-#define LINKREL
+\include "relpath.sh"
+\include "link.sh"
+\ifndef LINKREL
+\define LINKREL
 linkrel() #{{{1
 {
     # <doc:linkrel> {{{
@@ -16,4 +16,4 @@ linkrel() #{{{1
     dir=${dir##./}
     link "${dir}${1##*/}" "$2"
 }
-#endif
+\endif

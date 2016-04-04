@@ -1,5 +1,5 @@
-#ifndef FIND_ABOVE
-#define FIND_ABOVE
+\ifndef FIND_ABOVE
+\define FIND_ABOVE
 find_above() #{{{1
 {
     # <doc:find_above> {{{
@@ -20,4 +20,4 @@ find_above() #{{{1
     done
     cd "$OPWD"
 }
-#endif
+\endif

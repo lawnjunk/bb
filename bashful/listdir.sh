@@ -1,5 +1,5 @@
-#ifndef LISTDIR
-#define LISTDIR
+\ifndef LISTDIR
+\define LISTDIR
 listdir() #{{{1
 {
     # <doc:listdir> {{{
@@ -14,4 +14,4 @@ listdir() #{{{1
     local dir=$1; shift
     find "$dir" -maxdepth 1 -mindepth 1 "$@"
 }
-#endif
+\endif

@@ -1,7 +1,7 @@
-#include "profile_file.sh"
-#include "error.sh"
-#ifndef PROFILE_VERIFY
-#define PROFILE_VERIFY
+\include "profile_file.sh"
+\include "error.sh"
+\ifndef PROFILE_VERIFY
+\define PROFILE_VERIFY
 profile_verify() #{{{1
 {
     # <doc:profile_verify> {{{
@@ -17,4 +17,4 @@ profile_verify() #{{{1
         return 1
     fi
 }
-#endif
+\endif

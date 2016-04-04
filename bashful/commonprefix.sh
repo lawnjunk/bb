@@ -1,5 +1,5 @@
-#ifndef COMMONPREFIX
-#define COMMONPREFIX
+\ifndef COMMONPREFIX
+\define COMMONPREFIX
 commonprefix() #{{{1
 {
     # <doc:commonprefix> {{{
@@ -35,4 +35,4 @@ commonprefix() #{{{1
         echo "$prefix"
     done | tail -n1
 }
-#endif
+\endif

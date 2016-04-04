@@ -1,7 +1,7 @@
-#include "commonsuffix.sh"
-#include "abspath.sh"
-#ifndef COMMONTAIL
-#define COMMONTAIL
+\include "commonsuffix.sh"
+\include "abspath.sh"
+\ifndef COMMONTAIL
+\define COMMONTAIL
 commontail() #{{{1
 {
     # <doc:commontail> {{{
@@ -35,4 +35,4 @@ commontail() #{{{1
 
     echo "${suffix#*/}"
 }
-#endif
+\endif

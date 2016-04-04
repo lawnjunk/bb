@@ -1,6 +1,6 @@
-#include "truth_echo.sh"
-#ifndef VERBOSE_ECHO
-#define VERBOSE_ECHO
+\include "truth_echo.sh"
+\ifndef VERBOSE_ECHO
+\define VERBOSE_ECHO
 verbose_echo() #{{{1
 {
     # <doc:verbose_echo> {{{
@@ -14,4 +14,4 @@ verbose_echo() #{{{1
 
     truth_echo "$VERBOSE" "$1" "$2"
 }
-#endif
+\endif
