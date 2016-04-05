@@ -1,6 +1,6 @@
-#include "embedded_tag.sh"
-#ifndef EVAL_EMBEDDED
-#define EVAL_EMBEDDED
+\include "embedded_tag.sh"
+\ifndef EVAL_EMBEDDED
+\define EVAL_EMBEDDED
 eval_embedded() #{{{1
 {
     # <doc:eval_embedded> {{{
@@ -14,4 +14,4 @@ eval_embedded() #{{{1
     local name=$1; shift
     eval "$(embedded_tag "eval:$name" "$@")"
 }
-#endif
+\endif

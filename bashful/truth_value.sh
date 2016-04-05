@@ -1,6 +1,6 @@
-#include "truth_echo.sh"
-#ifndef TRUTH_VALUE
-#define TRUTH_VALUE
+\include "truth_echo.sh"
+\ifndef TRUTH_VALUE
+\define TRUTH_VALUE
 truth_value() #{{{1
 {
     # <doc:truth_value> {{{
@@ -11,4 +11,4 @@ truth_value() #{{{1
 
     truth_echo "$1" 1 0
 }
-#endif
+\endif

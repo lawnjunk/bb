@@ -1,7 +1,7 @@
-#include "execute.sh"
-#include "error.sh"
-#ifndef EXECUTE_IN
-#define EXECUTE_IN
+\include "execute.sh"
+\include "error.sh"
+\ifndef EXECUTE_IN
+\define EXECUTE_IN
 execute_in() #{{{1
 {
     # <doc:execute_in> {{{
@@ -17,4 +17,4 @@ execute_in() #{{{1
     cd "$OPWD"
     return $error
 }
-#endif
+\endif

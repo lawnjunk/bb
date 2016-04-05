@@ -1,7 +1,7 @@
-#include "truth_value.sh"
-#include "truth.sh"
-#ifndef INTERACTIVE
-#define INTERACTIVE
+\include "truth_value.sh"
+\include "truth.sh"
+\ifndef INTERACTIVE
+\define INTERACTIVE
 interactive() #{{{1
 {
     # <doc:interactive> {{{
@@ -20,4 +20,4 @@ interactive() #{{{1
 
     export INTERACTIVE=$(truth_value $1)
 }
-#endif
+\endif

@@ -1,9 +1,9 @@
-#include "question.sh"
-#include "profile_verify.sh"
-#include "profile_hook.sh"
-#include "info.sh"
-#ifndef PROFILE_DELETE
-#define PROFILE_DELETE
+\include "question.sh"
+\include "profile_verify.sh"
+\include "profile_hook.sh"
+\include "info.sh"
+\ifndef PROFILE_DELETE
+\define PROFILE_DELETE
 profile_delete() #{{{1
 {
     # <doc:profile_delete> {{{
@@ -19,4 +19,4 @@ profile_delete() #{{{1
     rm -f "$PROFILE_FILE"
     profile_hook delete post
 }
-#endif
+\endif

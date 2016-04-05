@@ -1,7 +1,7 @@
-#include "truth.sh"
-#include "interactive.sh"
-#ifndef INPUT
-#define INPUT
+\include "truth.sh"
+\include "interactive.sh"
+\ifndef INPUT
+\define INPUT
 input() #{{{1
 {
     # <doc:input> {{{
@@ -52,4 +52,4 @@ input() #{{{1
 
     echo "${reply:-$d}"
 }
-#endif
+\endif

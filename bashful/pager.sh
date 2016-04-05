@@ -1,6 +1,6 @@
-#include "first.sh"
-#ifndef PAGER
-#define PAGER
+\include "first.sh"
+\ifndef PAGER
+\define PAGER
 pager() #{{{1
 {
     # <doc:pager> {{{
@@ -11,4 +11,4 @@ pager() #{{{1
 
     $(first "$PAGER" "less")
 }
-#endif
+\endif

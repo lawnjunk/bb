@@ -1,5 +1,5 @@
-#ifndef SLEEP_UNTIL
-#define SLEEP_UNTIL
+\ifndef SLEEP_UNTIL
+\define SLEEP_UNTIL
 sleep_until() #{{{1
 {
     # <doc:sleep_until> {{{
@@ -12,4 +12,4 @@ sleep_until() #{{{1
     local secs=$(($(date -d "$1" +%s) - $(date +%s)))
     (( secs > 0 )) && sleep $secs
 }
-#endif
+\endif

@@ -1,7 +1,6 @@
-#include "lower.sh"
-#include "filename.sh"
-#ifndef EXTNAME
-#define EXTNAME
+\include "lower.sh"
+\ifndef EXTNAME
+\define EXTNAME
 extname() #{{{1
 {
     # <doc:extname> {{{
@@ -52,4 +51,4 @@ extname() #{{{1
 
     echo "$exts"
 }
-#endif
+\endif

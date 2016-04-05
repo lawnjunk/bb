@@ -1,7 +1,7 @@
-#include "squeeze.sh"
-#include "lower.sh"
-#ifndef DETOX
-#define DETOX
+\include "squeeze.sh"
+\include "lower.sh"
+\ifndef DETOX
+\define DETOX
 detox() #{{{1
 {
     # <doc:detox> {{{
@@ -13,4 +13,4 @@ detox() #{{{1
     sed 's/[^A-Za-z0-9 ]/ /g' |
     squeeze | sed 's/ /_/g' | lower
 }
-#endif
+\endif

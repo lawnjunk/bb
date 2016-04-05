@@ -1,5 +1,5 @@
-#ifndef EXECUTE
-#define EXECUTE
+\ifndef EXECUTE
+\define EXECUTE
 execute() #{{{1
 {
     # <doc:execute> {{{
@@ -12,4 +12,4 @@ execute() #{{{1
 
     "${EXECUTE_CMD[@]}" "$@"
 }
-#endif
+\endif

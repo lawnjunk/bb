@@ -1,6 +1,6 @@
-#include "embedded_range.sh"
-#ifndef EMBEDDED_TAG
-#define EMBEDDED_TAG
+\include "embedded_range.sh"
+\ifndef EMBEDDED_TAG
+\define EMBEDDED_TAG
 embedded_tag() #{{{1
 {
     # <doc:embedded_tag> {{{
@@ -14,4 +14,4 @@ embedded_tag() #{{{1
     local name=$1; shift
     embedded_range "<$name>" "</$name>" "$@"
 }
-#endif
+\endif

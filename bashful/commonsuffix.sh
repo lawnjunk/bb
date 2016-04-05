@@ -1,6 +1,6 @@
-#include "commonprefix.sh"
-#ifndef COMMONSUFFIX
-#define COMMONSUFFIX
+\include "commonprefix.sh"
+\ifndef COMMONSUFFIX
+\define COMMONSUFFIX
 commonsuffix() #{{{1
 {
     # <doc:commonsuffix> {{{
@@ -23,4 +23,4 @@ commonsuffix() #{{{1
 
     rev | commonprefix | rev
 }
-#endif
+\endif

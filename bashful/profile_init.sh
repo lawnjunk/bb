@@ -1,6 +1,6 @@
-#include "error.sh"
-#ifndef PROFILE_INIT
-#define PROFILE_INIT
+\include "error.sh"
+\ifndef PROFILE_INIT
+\define PROFILE_INIT
 profile_init() #{{{1
 {
     # <doc:profile_init> {{{
@@ -40,4 +40,4 @@ profile_init() #{{{1
 
     PROFILE_DIR=$CONFIG_DIR/profiles
 }
-#endif
+\endif

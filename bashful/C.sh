@@ -1,6 +1,6 @@
-#include "P.sh"
-#ifndef C
-#define C
+\include "P.sh"
+\ifndef C
+\define C
 C()
 {
     local name="term_${1}g_$(printf "%03d" "$((10#$2))")"
@@ -9,4 +9,4 @@ C()
     fi
     P "${!name}" "$3"
 }
-#endif
+\endif

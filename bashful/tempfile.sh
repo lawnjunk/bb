@@ -1,7 +1,7 @@
-#include "error.sh"
-#include "cleanup.sh"
-#ifndef TEMPFILE
-#define TEMPFILE
+\include "error.sh"
+\include "cleanup.sh"
+\ifndef TEMPFILE
+\define TEMPFILE
 tempfile() #{{{1
 {
     # <doc:tempfile> {{{
@@ -21,4 +21,4 @@ tempfile() #{{{1
     CLEANUP_FILES=("${CLEANUP_FILES[@]}" "$TEMPFILE")
     trap cleanup INT TERM EXIT
 }
-#endif
+\endif

@@ -1,7 +1,7 @@
-#include "linkrel.sh"
-#include "files.sh"
-#ifndef STOW
-#define STOW
+\include "linkrel.sh"
+\include "files.sh"
+\ifndef STOW
+\define STOW
 stow() #{{{1
 {
     # <doc:stow> {{{
@@ -21,4 +21,4 @@ stow() #{{{1
         linkrel "$f" "$nf"
     done
 }
-#endif
+\endif

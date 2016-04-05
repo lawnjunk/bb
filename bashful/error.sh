@@ -1,7 +1,7 @@
-#include "verbose.sh"
-#include "truth.sh"
-#ifndef ERROR
-#define ERROR
+\include "verbose.sh"
+\include "truth.sh"
+\ifndef ERROR
+\define ERROR
 error() #{{{1
 {
     # <doc:error> {{{
@@ -32,4 +32,4 @@ error() #{{{1
 
     echo -e "${term_bold}${term_fg_red}ERROR: ${term_fg_white}${msg}${term_reset}" >&2
 }
-#endif
+\endif

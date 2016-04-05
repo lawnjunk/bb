@@ -1,5 +1,5 @@
-#ifndef REPEAT
-#define REPEAT
+\ifndef REPEAT
+\define REPEAT
 repeat() #{{{1
 {
     # <doc:repeat> {{{
@@ -14,4 +14,4 @@ repeat() #{{{1
         "$@"
     done
 }
-#endif
+\endif
