@@ -1,5 +1,6 @@
-BASH BUD
+BB
 ========
+[![Stories in Ready](https://badge.waffle.io/slugbyte/bb.svg?label=ready&title=Ready)](http://waffle.io/slugbyte/bb)
 
 ## NAME
 **bb** - bee bee is late to the party, but brough chips and queso.
