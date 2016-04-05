@@ -20,6 +20,11 @@ get_function_from_file_async(){
 
   # get the end line
   end_line=$(ag '^}' "$tmp_file" |head -n 1 | cut -d ':' -f 1)
+  func_upper_case=$(echo "$func" |upper);
+  if [[ "$ADD_MACROS" ]]; then 
+    echo "\\ifndef $func_upper_case"
+    echo "\\define $func_upper_case"
+  fi
 
   # cat the function
   if [[ "$REMOVE_COMMENTS" ]];then 
@@ -31,6 +36,10 @@ get_function_from_file_async(){
     cat_to_line "$tmp_file" "$end_line" |grep -v "^\s*$" 
   else
     cat_to_line "$tmp_file" "$end_line"
+  fi
+
+  if [[ "$ADD_MACROS" ]]; then 
+    echo "\\endif"
   fi
 
   # remove the tmp files

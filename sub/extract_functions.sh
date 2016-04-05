@@ -7,6 +7,7 @@
 #fn file_glob output_dir
 
 export REMOVE_COMMENTS=true
+export ADD_MACROS=true
 #warn "REMOVE_COMMENTS: $REMOVE_COMMENTS"
 #export REMOVE_WHITESPACE=false
 #warn "REMOVE_WHITESPACE: $REMOVE_WHITESPACE"
