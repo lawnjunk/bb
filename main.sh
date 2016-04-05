@@ -1,6 +1,7 @@
 \define SHEBANG \#!/bin/bash
 \SHEBANG
 \include "extract_functions.sh"
+
 \ifndef MAIN
 \define MAIN
 

@@ -23,7 +23,10 @@ get_function_from_file_async(){
 
   # cat the function
   if [[ "$REMOVE_COMMENTS" ]];then 
-    cat_to_line "$tmp_file" "$end_line" |sed -e 's:#[^"]*$::g' 
+    cat_to_line "$tmp_file" "$end_line" |
+    sed -e 's:#[^"]*$::g' |
+    grep -v '^\s*#' |
+    grep -v '^\s*$'
   elif [[ "$REMOVE_WHITESPACE" ]];then 
     cat_to_line "$tmp_file" "$end_line" |grep -v "^\s*$" 
   else

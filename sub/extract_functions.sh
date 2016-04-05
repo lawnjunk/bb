@@ -1,12 +1,13 @@
 \include "functions.sh"
 \include "get_function_from_file_async.sh"
 \include "warn.sh"
+\include "macro_maker.sh"
 \ifndef EXTRACT_FUNCTIONS
 \define EXTRACT_FUNCTIONS
 #fn file_glob output_dir
 
 export REMOVE_COMMENTS=true
-warn "REMOVE_COMMENTS: $REMOVE_COMMENTS"
+#warn "REMOVE_COMMENTS: $REMOVE_COMMENTS"
 #export REMOVE_WHITESPACE=false
 #warn "REMOVE_WHITESPACE: $REMOVE_WHITESPACE"
 
@@ -22,6 +23,8 @@ extract_functions(){
       (
       output_file="${output_dir}/${func}.sh"
       get_function_from_file_async "$file" "$func" >> "$output_file" 
+      #macro_maker "$output_file" &
+
       ) &
     done
   done
