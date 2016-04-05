@@ -1,5 +1,5 @@
-#ifndef CLEANUP
-#define CLEANUP
+\ifndef CLEANUP
+\define CLEANUP
 cleanup() #{{{1
 {
     # <doc:cleanup> {{{
@@ -13,4 +13,4 @@ cleanup() #{{{1
         $SUDO rm -rf "$file"
     done
 }
-#endif
+\endif

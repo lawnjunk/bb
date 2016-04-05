@@ -1,6 +1,6 @@
-#include "cat_between.sh"
-#ifndef CAT_TO_LINE
-#define CAT_TO_LINE
+\include "cat_between.sh"
+\ifndef CAT_TO_LINE
+\define CAT_TO_LINE
 #fn file end_line
 cat_to_line(){
   local file end_line
@@ -10,4 +10,4 @@ cat_to_line(){
 
   cat_between "$file" "1" "$end_line"
 }
-#endif
+\endif

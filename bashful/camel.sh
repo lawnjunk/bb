@@ -1,5 +1,5 @@
-#ifndef CAMEL
-#define CAMEL
+\ifndef CAMEL
+\define CAMEL
 camel() #{{{1
 {
     # <doc:camel> {{{
@@ -12,4 +12,4 @@ camel() #{{{1
     sed 's/\<\(.\)/\U\1/g' |
     sed 's/ //g'
 }
-#endif
+\endif

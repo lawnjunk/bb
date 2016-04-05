@@ -1,5 +1,5 @@
-#ifndef VARIABLES
-#define VARIABLES
+\ifndef VARIABLES
+\define VARIABLES
 variables() #{{{1
 {
     # <doc:variables> {{{
@@ -12,4 +12,4 @@ variables() #{{{1
     egrep '^[a-zA-Z0-9_]+=' |
     sed 's/=.*$//' | sort -u
 }
-#endif
+\endif

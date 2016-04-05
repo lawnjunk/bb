@@ -1,6 +1,6 @@
-#include "variables.sh"
-#ifndef FLATTEN
-#define FLATTEN
+\include "variables.sh"
+\ifndef FLATTEN
+\define FLATTEN
 flatten() #{{{1
 {
     # <doc:flatten> {{{
@@ -35,4 +35,4 @@ flatten() #{{{1
 
     echo "$t"
 }
-#endif
+\endif

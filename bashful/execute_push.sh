@@ -1,5 +1,5 @@
-#ifndef EXECUTE_PUSH
-#define EXECUTE_PUSH
+\ifndef EXECUTE_PUSH
+\define EXECUTE_PUSH
 execute_push() #{{{1
 {
     # <doc:execute_push> {{{
@@ -12,4 +12,4 @@ execute_push() #{{{1
 
     EXECUTE_CMD+=("$@")
 }
-#endif
+\endif

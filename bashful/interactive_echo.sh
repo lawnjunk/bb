@@ -1,6 +1,6 @@
-#include "truth_echo.sh"
-#ifndef INTERACTIVE_ECHO
-#define INTERACTIVE_ECHO
+\include "truth_echo.sh"
+\ifndef INTERACTIVE_ECHO
+\define INTERACTIVE_ECHO
 interactive_echo() #{{{1
 {
     # <doc:interactive_echo> {{{
@@ -14,4 +14,4 @@ interactive_echo() #{{{1
 
     truth_echo "$INTERACTIVE" "$1" "$2"
 }
-#endif
+\endif

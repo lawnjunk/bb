@@ -1,5 +1,5 @@
-#ifndef FILES
-#define FILES
+\ifndef FILES
+\define FILES
 files() #{{{1
 {
     # <doc:files> {{{
@@ -15,4 +15,4 @@ files() #{{{1
     local dir=$1; shift
     find "$dir" \( -type f -o -type l \) \! -wholename "*/.*" "$@"
 }
-#endif
+\endif

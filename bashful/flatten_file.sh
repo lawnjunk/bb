@@ -1,6 +1,6 @@
-#include "variables.sh"
-#ifndef FLATTEN_FILE
-#define FLATTEN_FILE
+\include "variables.sh"
+\ifndef FLATTEN_FILE
+\define FLATTEN_FILE
 flatten_file() #{{{1
 {
     # <doc:flatten_file> {{{
@@ -36,4 +36,4 @@ flatten_file() #{{{1
         sed -i "s%${fl}${n//%/\%}${fr}%${!n}%g" "$fn"
     done
 }
-#endif
+\endif

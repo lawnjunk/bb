@@ -1,6 +1,6 @@
-#include "squeeze_lines.sh"
-#ifndef EMBEDDED_RANGE
-#define EMBEDDED_RANGE
+\include "squeeze_lines.sh"
+\ifndef EMBEDDED_RANGE
+\define EMBEDDED_RANGE
 embedded_range() #{{{1
 {
     # <doc:embedded_range> {{{
@@ -17,4 +17,4 @@ embedded_range() #{{{1
 
     sed -n "/$c$s/,/$c$e/p" "$@" | sed '1d;$d' | sed "s/$c//" | squeeze_lines
 }
-#endif
+\endif

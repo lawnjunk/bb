@@ -1,8 +1,8 @@
-#include "pager.sh"
-#include "doc_topics.sh"
-#include "doc.sh"
-#ifndef DOC_HELP
-#define DOC_HELP
+\include "pager.sh"
+\include "doc_topics.sh"
+\include "doc.sh"
+\ifndef DOC_HELP
+\define DOC_HELP
 doc_help() #{{{1
 {
     # <doc:doc_help> {{{
@@ -30,4 +30,4 @@ doc_help() #{{{1
         fi
     } | pager
 }
-#endif
+\endif

@@ -1,6 +1,6 @@
-#include "interactive_echo.sh"
-#ifndef INTERACTIVE_OPTION
-#define INTERACTIVE_OPTION
+\include "interactive_echo.sh"
+\ifndef INTERACTIVE_OPTION
+\define INTERACTIVE_OPTION
 interactive_option() #{{{1
 {
     # <doc:interactive_option> {{{
@@ -11,4 +11,4 @@ interactive_option() #{{{1
 
     interactive_echo "-i" "-f"
 }
-#endif
+\endif

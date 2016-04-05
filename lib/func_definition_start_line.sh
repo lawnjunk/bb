@@ -1,6 +1,6 @@
-#include "debug_log"
-#ifndef FUNC_START
-#define FUNC_START
+\include "debug_log.sh"
+\ifndef FUNC_START
+\define FUNC_START
 # fn file function
 func_definition_start_line(){  
   local file func
@@ -9,4 +9,4 @@ func_definition_start_line(){
   func="$2"
   ag "^$func\(\)" "$file" | head -n 1 | cut -d ":" -f 1
 }
-#endif
+\endif

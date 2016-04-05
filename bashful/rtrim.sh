@@ -1,5 +1,5 @@
-#ifndef RTRIM
-#define RTRIM
+\ifndef RTRIM
+\define RTRIM
 rtrim() #{{{1
 {
     # <doc:rtrim> {{{
@@ -11,4 +11,4 @@ rtrim() #{{{1
     local char=${1:-[:space:]}
     sed "s%[${char//%/\\%}]*$%%"
 }
-#endif
+\endif

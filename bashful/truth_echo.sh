@@ -1,6 +1,6 @@
-#include "truth.sh"
-#ifndef TRUTH_ECHO
-#define TRUTH_ECHO
+\include "truth.sh"
+\ifndef TRUTH_ECHO
+\define TRUTH_ECHO
 truth_echo() #{{{1
 {
     # <doc:truth_echo> {{{
@@ -16,4 +16,4 @@ truth_echo() #{{{1
         [[ $3 ]] && echo "$3"
     fi
 }
-#endif
+\endif

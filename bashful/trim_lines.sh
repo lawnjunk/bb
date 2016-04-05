@@ -1,5 +1,5 @@
-#ifndef TRIM_LINES
-#define TRIM_LINES
+\ifndef TRIM_LINES
+\define TRIM_LINES
 trim_lines() #{{{1
 {
     # <doc:trim_lines> {{{
@@ -23,4 +23,4 @@ trim_lines() #{{{1
 
     sed ':a;$!{N;ba;};s/^[[:space:]]*\n//;s/\n[[:space:]]*$//'
 }
-#endif
+\endif

@@ -1,6 +1,6 @@
-#include "embedded_tag.sh"
-#ifndef DOC
-#define DOC
+\include "embedded_tag.sh"
+\ifndef DOC
+\define DOC
 doc() #{{{1
 {
     # <doc:doc> {{{
@@ -14,4 +14,4 @@ doc() #{{{1
     local name=$1; shift
     embedded_tag "doc:$name" "$@"
 }
-#endif
+\endif

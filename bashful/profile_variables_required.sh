@@ -1,6 +1,6 @@
-#include "variables.sh"
-#ifndef PROFILE_VARIABLES_REQUIRED
-#define PROFILE_VARIABLES_REQUIRED
+\include "variables.sh"
+\ifndef PROFILE_VARIABLES_REQUIRED
+\define PROFILE_VARIABLES_REQUIRED
 profile_variables_required() #{{{1
 {
     # <doc:profile_variables_required> {{{
@@ -11,4 +11,4 @@ profile_variables_required() #{{{1
 
     grep -v '^[[:space:]]*#' <<<"$PROFILE_DEFAULT" | variables
 }
-#endif
+\endif

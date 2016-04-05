@@ -1,6 +1,6 @@
-#include "upper.sh"
-#ifndef LOWER
-#define LOWER
+\include "upper.sh"
+\ifndef LOWER
+\define LOWER
 lower() #{{{1
 {
     # <doc:lower> {{{
@@ -11,4 +11,4 @@ lower() #{{{1
 
     tr '[:upper:]' '[:lower:]'
 }
-#endif
+\endif

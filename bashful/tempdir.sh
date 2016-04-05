@@ -1,6 +1,6 @@
-#include "tempfile.sh"
-#ifndef TEMPDIR
-#define TEMPDIR
+\include "tempfile.sh"
+\ifndef TEMPDIR
+\define TEMPDIR
 tempdir() #{{{1
 {
     # <doc:tempdir> {{{
@@ -15,4 +15,4 @@ tempdir() #{{{1
     tempfile -d -t "$(basename "$0").XXXXXX"
     TEMPDIR=$TEMPFILE
 }
-#endif
+\endif

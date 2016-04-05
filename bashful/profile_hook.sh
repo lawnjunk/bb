@@ -1,5 +1,5 @@
-#ifndef PROFILE_HOOK
-#define PROFILE_HOOK
+\ifndef PROFILE_HOOK
+\define PROFILE_HOOK
 profile_hook() #{{{1
 {
     # <doc:profile_hook> {{{
@@ -15,4 +15,4 @@ profile_hook() #{{{1
         $command
     fi
 }
-#endif
+\endif

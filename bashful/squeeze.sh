@@ -1,6 +1,6 @@
-#include "trim.sh"
-#ifndef SQUEEZE
-#define SQUEEZE
+\include "trim.sh"
+\ifndef SQUEEZE
+\define SQUEEZE
 squeeze() #{{{1
 {
     # <doc:squeeze> {{{
@@ -16,4 +16,4 @@ squeeze() #{{{1
     local char=${1:-[[:space:]]}
     sed "s%\(${char//%/\\%}\)\+%\1%g" | trim "$char"
 }
-#endif
+\endif

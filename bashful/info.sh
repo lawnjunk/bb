@@ -1,7 +1,7 @@
-#include "verbose.sh"
-#include "truth.sh"
-#ifndef INFO
-#define INFO
+\include "verbose.sh"
+\include "truth.sh"
+\ifndef INFO
+\define INFO
 info() #{{{1
 {
     # <doc:info> {{{
@@ -32,4 +32,4 @@ info() #{{{1
 
     echo -e "${term_bold}${term_fg_blue}==> ${term_fg_white}${msg}${term_reset}" >&2
 }
-#endif
+\endif

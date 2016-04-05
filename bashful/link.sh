@@ -1,9 +1,9 @@
-#include "verbose_echo.sh"
-#include "verbose.sh"
-#include "interactive_option.sh"
-#include "interactive.sh"
-#ifndef LINK
-#define LINK
+\include "verbose_echo.sh"
+\include "verbose.sh"
+\include "interactive_option.sh"
+\include "interactive.sh"
+\ifndef LINK
+\define LINK
 link() #{{{1
 {
     # <doc:link> {{{
@@ -19,4 +19,4 @@ link() #{{{1
 
     $SUDO ln -snT $(interactive_option) $(verbose_echo -v) "$@"
 }
-#endif
+\endif

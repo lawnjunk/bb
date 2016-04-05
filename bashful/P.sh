@@ -1,6 +1,6 @@
-#include "C.sh"
-#ifndef P
-#define P
+\include "C.sh"
+\ifndef P
+\define P
 P() { echo "${1}${2}${term_reset}"; }
 
 C()
@@ -11,4 +11,4 @@ C()
     fi
     P "${!name}" "$3"
 }
-#endif
+\endif

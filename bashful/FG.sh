@@ -1,3 +1,3 @@
-#ifndef FG
-#define FG
-#endif
+\ifndef FG
+\define FG
+\endif

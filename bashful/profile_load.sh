@@ -1,11 +1,11 @@
-#include "profile_verify.sh"
-#include "profile_variables_required.sh"
-#include "profile_variables.sh"
-#include "profile_hook.sh"
-#include "profile_clear.sh"
-#include "error.sh"
-#ifndef PROFILE_LOAD
-#define PROFILE_LOAD
+\include "profile_verify.sh"
+\include "profile_variables_required.sh"
+\include "profile_variables.sh"
+\include "profile_hook.sh"
+\include "profile_clear.sh"
+\include "error.sh"
+\ifndef PROFILE_LOAD
+\define PROFILE_LOAD
 profile_load() #{{{1
 {
     # <doc:profile_load> {{{
@@ -14,7 +14,7 @@ profile_load() #{{{1
     #
     # If a profile default is set, any missing settings will fallback to it.
     # Any previous profile settings will be cleared first based on what is
-    # defined in the default profile. This is to be sure that you're not using
+    # \defined in the default profile. This is to be sure that you're not using
     # settings from different profiles.
     #
     # The uncommented default profile settings are considered required, and
@@ -46,4 +46,4 @@ profile_load() #{{{1
 
     profile_hook load post
 }
-#endif
+\endif

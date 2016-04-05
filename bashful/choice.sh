@@ -1,7 +1,7 @@
-#include "truth.sh"
-#include "interactive.sh"
-#ifndef CHOICE
-#define CHOICE
+\include "truth.sh"
+\include "interactive.sh"
+\ifndef CHOICE
+\define CHOICE
 choice() #{{{1
 {
     # <doc:choice> {{{
@@ -47,4 +47,4 @@ choice() #{{{1
         fi
     done
 }
-#endif
+\endif

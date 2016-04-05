@@ -1,6 +1,6 @@
-#include "verbose_echo.sh"
-#ifndef VERBOSE_OPTION
-#define VERBOSE_OPTION
+\include "verbose_echo.sh"
+\ifndef VERBOSE_OPTION
+\define VERBOSE_OPTION
 verbose_option() #{{{1
 {
     # <doc:verbose_option> {{{
@@ -11,4 +11,4 @@ verbose_option() #{{{1
 
     verbose_echo "-v" "-q"
 }
-#endif
+\endif

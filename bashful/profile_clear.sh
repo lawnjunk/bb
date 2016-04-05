@@ -1,6 +1,6 @@
-#include "profile_variables.sh"
-#ifndef PROFILE_CLEAR
-#define PROFILE_CLEAR
+\include "profile_variables.sh"
+\ifndef PROFILE_CLEAR
+\define PROFILE_CLEAR
 profile_clear() #{{{1
 {
     # <doc:profile_clear> {{{
@@ -19,4 +19,4 @@ profile_clear() #{{{1
         done
     fi
 }
-#endif
+\endif

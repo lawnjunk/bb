@@ -1,7 +1,7 @@
-#include "truth_value.sh"
-#include "truth.sh"
-#ifndef VERBOSE
-#define VERBOSE
+\include "truth_value.sh"
+\include "truth.sh"
+\ifndef VERBOSE
+\define VERBOSE
 verbose() #{{{1
 {
     # <doc:verbose> {{{
@@ -20,4 +20,4 @@ verbose() #{{{1
 
     export VERBOSE=$(truth_value $1)
 }
-#endif
+\endif

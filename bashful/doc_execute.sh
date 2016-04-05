@@ -1,6 +1,6 @@
-#include "doc_help.sh"
-#ifndef DOC_EXECUTE
-#define DOC_EXECUTE
+\include "doc_help.sh"
+\ifndef DOC_EXECUTE
+\define DOC_EXECUTE
 doc_execute() #{{{1
 {
     # <doc:doc_execute> {{{
@@ -30,4 +30,4 @@ doc_execute() #{{{1
         source "$src"; "$@"
     fi
 }
-#endif
+\endif

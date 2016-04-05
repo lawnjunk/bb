@@ -1,7 +1,7 @@
-#include "profile_choose.sh"
-#include "error.sh"
-#ifndef PROFILE_FILE
-#define PROFILE_FILE
+\include "profile_choose.sh"
+\include "error.sh"
+\ifndef PROFILE_FILE
+\define PROFILE_FILE
 profile_file() #{{{1
 {
     # <doc:profile_file> {{{
@@ -21,4 +21,4 @@ profile_file() #{{{1
 
     PROFILE_FILE=$PROFILE_DIR/$PROFILE
 }
-#endif
+\endif

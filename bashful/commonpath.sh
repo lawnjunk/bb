@@ -1,7 +1,7 @@
-#include "commonprefix.sh"
-#include "abspath.sh"
-#ifndef COMMONPATH
-#define COMMONPATH
+\include "commonprefix.sh"
+\include "abspath.sh"
+\ifndef COMMONPATH
+\define COMMONPATH
 commonpath() #{{{1
 {
     # <doc:commonpath> {{{
@@ -41,4 +41,4 @@ commonpath() #{{{1
 
     echo "$prefix"
 }
-#endif
+\endif
