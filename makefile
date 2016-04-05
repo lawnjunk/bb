@@ -1,13 +1,14 @@
 all: build
 
-build: 
+build:
 	gpp +s "\"" "\"" "\\" +s "'" "'" "\\" +s "\`" "\`" "\\" -U "\\" "" "(" "," ")" "(" ")" "#" "\\" -M "\\" "\n" " " " " "\n" "(" ")" -I sub -I bashful -I lib main.sh -o bb
 	awk 'NF' bb > no_white_space
 	mv no_white_space bb
 	chmod 755 bb
 	fortune
 
-run: clean build
+run:
+	rm -rf tmp
 	./bb bb tmp
 
 clean: 

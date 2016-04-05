@@ -5,7 +5,7 @@
 \ifndef GET_FUNCTION_FROM_FILE
 \define GET_FUNCTION_FROM_FILE
 #fn file function output_dir
-get_function_from_file(){
+get_function_from_file_async(){
   (
   local file func start_line end_line tmp_file
   file="$1"
@@ -23,7 +23,7 @@ get_function_from_file(){
 
   # cat the function
   if [[ "$REMOVE_COMMENTS" ]];then 
-    cat_to_line "$tmp_file" "$end_line" | sed -e 's:#[^"]*$::g' |grep -v "^\s*$" 
+    cat_to_line "$tmp_file" "$end_line" |sed -e 's:#[^"]*$::g' 
   elif [[ "$REMOVE_WHITESPACE" ]];then 
     cat_to_line "$tmp_file" "$end_line" |grep -v "^\s*$" 
   else

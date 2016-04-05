@@ -1,11 +1,9 @@
 \define SHEBANG \#!/bin/bash
 \SHEBANG
 \include "extract_functions.sh"
-\include "warn.sh"
 \ifndef MAIN
 \define MAIN
 
-warn "lulllala"
 # define global constants
 export _FUNCTIONS=()
 
