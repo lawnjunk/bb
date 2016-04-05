@@ -1,5 +1,5 @@
-#ifndef EXECUTE_CLEAR
-#define EXECUTE_CLEAR
+\ifndef EXECUTE_CLEAR
+\define EXECUTE_CLEAR
 execute_clear() #{{{1
 {
     # <doc:execute_clear> {{{
@@ -12,4 +12,4 @@ execute_clear() #{{{1
 
     unset EXECUTE_CMD
 }
-#endif
+\endif

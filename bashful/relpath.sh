@@ -1,7 +1,7 @@
-#include "commonpath.sh"
-#include "abspath.sh"
-#ifndef RELPATH
-#define RELPATH
+\include "commonpath.sh"
+\include "abspath.sh"
+\ifndef RELPATH
+\define RELPATH
 relpath() #{{{1
 {
     # <doc:relpath> {{{
@@ -50,4 +50,4 @@ relpath() #{{{1
 
     echo "$rel"
 }
-#endif
+\endif

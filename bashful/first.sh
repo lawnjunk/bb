@@ -1,5 +1,5 @@
-#ifndef FIRST
-#define FIRST
+\ifndef FIRST
+\define FIRST
 first() #{{{1
 {
     # <doc:first> {{{
@@ -20,4 +20,4 @@ first() #{{{1
     done
     return 1
 }
-#endif
+\endif

@@ -1,7 +1,7 @@
-#include "truth.sh"
-#include "interactive.sh"
-#ifndef PAUSE
-#define PAUSE
+\include "truth.sh"
+\include "interactive.sh"
+\ifndef PAUSE
+\define PAUSE
 pause() #{{{1
 {
     # <doc:pause> {{{
@@ -29,4 +29,4 @@ pause() #{{{1
 
     read -s -p "$p" -n1 && echo >&2
 }
-#endif
+\endif

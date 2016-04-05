@@ -1,5 +1,5 @@
-#ifndef NAMED
-#define NAMED
+\ifndef NAMED
+\define NAMED
 named() #{{{1
 {
     # <doc:named> {{{
@@ -27,4 +27,4 @@ named() #{{{1
 
     echo "${!1}"
 }
-#endif
+\endif

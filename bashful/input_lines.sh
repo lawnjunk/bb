@@ -1,8 +1,8 @@
-#include "truth.sh"
-#include "interactive.sh"
-#include "input.sh"
-#ifndef INPUT_LINES
-#define INPUT_LINES
+\include "truth.sh"
+\include "interactive.sh"
+\include "input.sh"
+\ifndef INPUT_LINES
+\define INPUT_LINES
 input_lines() #{{{1
 {
     # <doc:input_lines> {{{
@@ -36,4 +36,4 @@ input_lines() #{{{1
     echo "$p:" >&2
     cat  # Accept input until EOF (ctrl-d)
 }
-#endif
+\endif

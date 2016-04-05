@@ -1,5 +1,5 @@
-#ifndef ACTIONS
-#define ACTIONS
+\ifndef ACTIONS
+\define ACTIONS
 actions() #{{{1
 {
     # <doc:actions> {{{
@@ -17,4 +17,4 @@ actions() #{{{1
     sed "s/^${name}_//" |
     sort -u
 }
-#endif
+\endif

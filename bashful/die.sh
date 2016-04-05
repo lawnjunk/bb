@@ -1,6 +1,6 @@
-#include "error.sh"
-#ifndef DIE
-#define DIE
+\include "error.sh"
+\ifndef DIE
+\define DIE
 die() #{{{1
 {
     # <doc:die> {{{
@@ -13,4 +13,4 @@ die() #{{{1
 
     error "$1"; exit ${2:-1}
 }
-#endif
+\endif

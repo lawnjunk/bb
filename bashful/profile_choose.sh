@@ -1,8 +1,8 @@
-#include "profile_list.sh"
-#include "error.sh"
-#include "choice.sh"
-#ifndef PROFILE_CHOOSE
-#define PROFILE_CHOOSE
+\include "profile_list.sh"
+\include "error.sh"
+\include "choice.sh"
+\ifndef PROFILE_CHOOSE
+\define PROFILE_CHOOSE
 profile_choose() #{{{1
 {
     # <doc:profile_choose> {{{
@@ -32,4 +32,4 @@ profile_choose() #{{{1
         return 1
     fi
 }
-#endif
+\endif

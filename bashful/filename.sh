@@ -1,6 +1,6 @@
-#include "extname.sh"
-#ifndef FILENAME
-#define FILENAME
+\include "extname.sh"
+\ifndef FILENAME
+\define FILENAME
 filename() #{{{1
 {
     # <doc:filename> {{{
@@ -19,4 +19,4 @@ filename() #{{{1
 
     basename "$1" $(extname "$@")
 }
-#endif
+\endif

@@ -1,6 +1,6 @@
-#include "trim.sh"
-#ifndef SORT_LIST
-#define SORT_LIST
+\include "trim.sh"
+\ifndef SORT_LIST
+\define SORT_LIST
 sort_list() #{{{1
 {
     # <doc:sort_list> {{{
@@ -38,4 +38,4 @@ sort_list() #{{{1
 
     echo "${list%%$delim}"
 }
-#endif
+\endif

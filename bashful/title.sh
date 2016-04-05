@@ -1,7 +1,7 @@
-#include "upper.sh"
-#include "lower.sh"
-#ifndef TITLE
-#define TITLE
+\include "upper.sh"
+\include "lower.sh"
+\ifndef TITLE
+\define TITLE
 title() #{{{1
 {
     # <doc:title> {{{
@@ -13,4 +13,4 @@ title() #{{{1
     lower | sed 's/\<./\u&/g' |
     sed "s/'[[:upper:]]/\L&\l/g"
 }
-#endif
+\endif

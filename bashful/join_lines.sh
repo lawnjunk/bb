@@ -1,5 +1,5 @@
-#ifndef JOIN_LINES
-#define JOIN_LINES
+\ifndef JOIN_LINES
+\define JOIN_LINES
 join_lines() #{{{1
 {
     # <doc:join_lines> {{{
@@ -23,4 +23,4 @@ join_lines() #{{{1
     done | sed "s/$delim$//"
     echo
 }
-#endif
+\endif

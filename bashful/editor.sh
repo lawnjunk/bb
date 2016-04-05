@@ -1,6 +1,6 @@
-#include "first.sh"
-#ifndef EDITOR
-#define EDITOR
+\include "first.sh"
+\ifndef EDITOR
+\define EDITOR
 editor() #{{{1
 {
     # <doc:editor> {{{
@@ -11,4 +11,4 @@ editor() #{{{1
 
     $(first "$VISUAL" "$EDITOR" "vi") "$@"
 }
-#endif
+\endif

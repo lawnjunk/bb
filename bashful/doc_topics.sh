@@ -1,6 +1,6 @@
-#include "doc.sh"
-#ifndef DOC_TOPICS
-#define DOC_TOPICS
+\include "doc.sh"
+\ifndef DOC_TOPICS
+\define DOC_TOPICS
 doc_topics() #{{{1
 {
     # <doc:doc_topics> {{{
@@ -20,4 +20,4 @@ doc_topics() #{{{1
     sed "s/$c$n.*$/\1/" | sort -u |
     grep -v "^$(basename "$src")$"
 }
-#endif
+\endif

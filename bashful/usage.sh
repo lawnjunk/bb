@@ -1,8 +1,8 @@
-#include "verbose.sh"
-#include "squeeze_lines.sh"
-#include "actions.sh"
-#ifndef USAGE
-#define USAGE
+\include "verbose.sh"
+\include "squeeze_lines.sh"
+\include "actions.sh"
+\ifndef USAGE
+\define USAGE
 usage() #{{{1
 {
     # <doc:usage> {{{
@@ -73,4 +73,4 @@ usage() #{{{1
 
     exit ${1:-0}
 }
-#endif
+\endif

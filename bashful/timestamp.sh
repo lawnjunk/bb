@@ -1,5 +1,5 @@
-#ifndef TIMESTAMP
-#define TIMESTAMP
+\ifndef TIMESTAMP
+\define TIMESTAMP
 timestamp() #{{{1
 {
     # <doc:timestamp> {{{
@@ -10,4 +10,4 @@ timestamp() #{{{1
 
     date +%Y%m%d%H%M%S
 }
-#endif
+\endif

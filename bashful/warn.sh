@@ -1,7 +1,7 @@
-#include "verbose.sh"
-#include "truth.sh"
-#ifndef WARN
-#define WARN
+\include "verbose.sh"
+\include "truth.sh"
+\ifndef WARN
+\define WARN
 warn() #{{{1
 {
     # <doc:warn> {{{
@@ -32,4 +32,4 @@ warn() #{{{1
 
     echo -e "${term_bold}${term_fg_yellow}WARNING: ${term_fg_white}${msg}${term_reset}" >&2
 }
-#endif
+\endif

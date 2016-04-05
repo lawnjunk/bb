@@ -1,6 +1,6 @@
-#include "variables.sh"
-#ifndef PROFILE_VARIABLES
-#define PROFILE_VARIABLES
+\include "variables.sh"
+\ifndef PROFILE_VARIABLES
+\define PROFILE_VARIABLES
 profile_variables() #{{{1
 {
     # <doc:profile_variables> {{{
@@ -11,4 +11,4 @@ profile_variables() #{{{1
 
     variables <<<"$PROFILE_DEFAULT"
 }
-#endif
+\endif

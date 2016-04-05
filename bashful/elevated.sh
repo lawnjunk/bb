@@ -1,8 +1,8 @@
-#include "truth_value.sh"
-#include "truth_echo.sh"
-#include "truth.sh"
-#ifndef ELEVATED
-#define ELEVATED
+\include "truth_value.sh"
+\include "truth_echo.sh"
+\include "truth.sh"
+\ifndef ELEVATED
+\define ELEVATED
 elevated() #{{{1
 {
     # <doc:elevated> {{{
@@ -22,4 +22,4 @@ elevated() #{{{1
     export ELEVATED=$(truth_value $1)
     export SUDO=$(truth_echo "$ELEVATED" sudo)
 }
-#endif
+\endif

@@ -1,9 +1,9 @@
-#include "verbose_echo.sh"
-#include "verbose.sh"
-#include "interactive_option.sh"
-#include "interactive.sh"
-#ifndef MOVE
-#define MOVE
+\include "verbose_echo.sh"
+\include "verbose.sh"
+\include "interactive_option.sh"
+\include "interactive.sh"
+\ifndef MOVE
+\define MOVE
 move() #{{{1
 {
     # <doc:move> {{{
@@ -18,4 +18,4 @@ move() #{{{1
 
     $SUDO mv -T $(interactive_option) $(verbose_echo -v) "$@"
 }
-#endif
+\endif

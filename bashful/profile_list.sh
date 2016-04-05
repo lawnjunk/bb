@@ -1,6 +1,6 @@
-#include "listdir.sh"
-#ifndef PROFILE_LIST
-#define PROFILE_LIST
+\include "listdir.sh"
+\ifndef PROFILE_LIST
+\define PROFILE_LIST
 profile_list() #{{{1
 {
     # <doc:profile_list> {{{
@@ -28,4 +28,4 @@ profile_list() #{{{1
     grep "${profile:+^$profile$}" |
     sort
 }
-#endif
+\endif

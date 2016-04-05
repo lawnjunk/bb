@@ -1,5 +1,5 @@
-#ifndef LINES
-#define LINES
+\ifndef LINES
+\define LINES
 lines() #{{{1
 {
     # <doc:lines>
@@ -12,4 +12,4 @@ lines() #{{{1
 
     grep -E -v '^[[:space:]]*#|^[[:space:]]*$' "$@"
 }
-#endif
+\endif

@@ -1,7 +1,7 @@
-#include "upper.sh"
-#include "detox.sh"
-#ifndef SNAKE
-#define SNAKE
+\include "upper.sh"
+\include "detox.sh"
+\ifndef SNAKE
+\define SNAKE
 snake() #{{{1
 {
     # <doc:snake> {{{
@@ -12,4 +12,4 @@ snake() #{{{1
 
     sed 's/\([[:upper:]]\)/ \1/g' | detox
 }
-#endif
+\endif

@@ -1,5 +1,5 @@
-#ifndef FUNCTIONS
-#define FUNCTIONS
+\ifndef FUNCTIONS
+\define FUNCTIONS
 functions() #{{{1
 {
     # <doc:functions> {{{
@@ -12,4 +12,4 @@ functions() #{{{1
     grep -E '^[a-zA-Z0-9_-]+\(\)' |
     sed 's/().*$//' | sort -u
 }
-#endif
+\endif

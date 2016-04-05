@@ -1,5 +1,5 @@
-#ifndef LTRIM
-#define LTRIM
+\ifndef LTRIM
+\define LTRIM
 ltrim() #{{{1
 {
     # <doc:ltrim> {{{
@@ -11,4 +11,4 @@ ltrim() #{{{1
     local char=${1:-[:space:]}
     sed "s%^[${char//%/\\%}]*%%"
 }
-#endif
+\endif
