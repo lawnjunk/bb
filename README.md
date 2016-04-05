@@ -13,7 +13,6 @@ Creates unique files for functions in a bash script. Has the ability to remove c
 ## OPTIONS
 
 **\-c --no-comments**
-**\-m --minified**
 **\-g --gpp**
 
 # EXAMPLES
